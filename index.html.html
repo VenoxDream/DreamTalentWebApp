@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DreamTalent</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="public/logo.png" alt="DreamTalent Logo" class="logo">
+    <h1>DreamTalent</h1>
+  </header>
+
+  <main>
+    <section class="upload-section">
+      <h2>Zeig uns dein Talent!</h2>
+      <input type="file" id="videoUpload" accept="video/*" />
+      <button onclick="uploadVideo()">Video hochladen</button>
+    </section>
+
+    <section id="videoFeed" class="video-feed">
+      <!-- Videos werden hier geladen -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
